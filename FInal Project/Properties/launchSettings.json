@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FInal Project": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\Tom\\OneDrive\\Desktop\\Guitar Files\\Song Library\\DataFile.json\" \"C:\\Users\\Tom\\OneDrive\\Desktop\\Guitar Files\\Guitar Data\\DataFile2.json\""
+    }
+  }
+}
