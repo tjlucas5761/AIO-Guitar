@@ -392,7 +392,7 @@ namespace FInal_Project
                 }
                 
                 //Tune Guitar
-                //This is what I actually use irl
+                //This is what I use irl
                 if (Response == UserInputOptions[4])
                 {
                     Process.Start(new ProcessStartInfo("https://www.youtube.com/watch?v=DxkMQvmKZaM&ab_channel=187Guitarplayer") { UseShellExecute = true });
@@ -430,7 +430,6 @@ namespace FInal_Project
                     System.Environment.Exit(1);
                 }
 
-                //used if instead of else to avoid unwanted actions, not sure why it is fighting me, but this works
                 if (UserInputOptions.Contains(Response) == false)
                 {
                     Console.WriteLine("Invalid Input");
